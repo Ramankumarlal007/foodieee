@@ -66,6 +66,21 @@ const header = () => {
     </>
   );
 };
+const RestroCard = ()  => {
+  return (
+    <>
+      <div className="Card" style={{backgroundColor: "#414141"}}>
+      <img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cace805a6ba74137571d0f7ac92302b1" alt="Chaayos Chai+Snacks=Relax" height= "90px"  style={{borderRadius: "10px"}} />
+      <h3 style={{backgroundColor: "#414141", color: "white" }}>Chaayos Chai+Snacks=Relax</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>30-35 mins</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>Bakery, Beverages</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>rating 4.3</h3>
+      
+      </div>
+    </>
+  )
+}
+
 
 const Body = function () {
   return (
@@ -74,7 +89,25 @@ const Body = function () {
         <div>
           Search <input type="search" name="search" id="" />
         </div>
-        <div></div>
+      <div className="Flex">
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+       <RestroCard/>
+      </div>
       </div>
     </>
   );

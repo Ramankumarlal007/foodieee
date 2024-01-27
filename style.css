@@ -1,5 +1,5 @@
 *{
-background-color: #e2bfbf;
+background-color: #f8f6f6;
 margin: 10px ;
 
 }
@@ -22,3 +22,24 @@ margin: 10px ;
 .Center {
     margin-top: 5%;
 }
+
+.Card {
+    
+    height: 300px;
+    width: 200px;
+    border-radius: 12px ;
+    border: 1px solid rgb(46, 187, 212);
+}
+.Flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Card:hover {
+    cursor: pointer;
+    border-radius: 15px ;
+    border: 2px solid rgb(212, 46, 198);
+}
+
+   
