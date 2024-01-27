@@ -82,8 +82,8 @@ const RestroCard = (props)  => {
 }
 
 
-const RestroCardd = ({restraunt, time, cusines, starrating})  => {
-  
+const RestroCardd = (props)  => {
+  const {restraunt, time, cusines, starrating} = props
   return (
     <>
       <div className="Card" style={{backgroundColor: "#414141"}}>
