@@ -66,16 +66,32 @@ const header = () => {
     </>
   );
 };
-const RestroCard = ()  => {
+const RestroCard = (props)  => {
+  console.log(props);
   return (
     <>
       <div className="Card" style={{backgroundColor: "#414141"}}>
       <img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cace805a6ba74137571d0f7ac92302b1" alt="Chaayos Chai+Snacks=Relax" height= "90px"  style={{borderRadius: "10px"}} />
-      <h3 style={{backgroundColor: "#414141", color: "white" }}>Chaayos Chai+Snacks=Relax</h3>
-      <h3 style={{backgroundColor: "#414141" , color: "white"}}>30-35 mins</h3>
-      <h3 style={{backgroundColor: "#414141" , color: "white"}}>Bakery, Beverages</h3>
-      <h3 style={{backgroundColor: "#414141" , color: "white"}}>rating 4.3</h3>
-      
+      <h3 style={{backgroundColor: "#414141", color: "white" }}>{props.restraunt}</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{props.time}</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{props.cusines}</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{props.starrating}</h3>
+      </div>
+    </>
+  )
+}
+
+
+const RestroCardd = ({restraunt, time, cusines, starrating})  => {
+  
+  return (
+    <>
+      <div className="Card" style={{backgroundColor: "#414141"}}>
+      <img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cace805a6ba74137571d0f7ac92302b1" alt="Chaayos Chai+Snacks=Relax" height= "90px"  style={{borderRadius: "10px"}} />
+      <h3 style={{backgroundColor: "#414141", color: "white" }}>{restraunt}</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{time}</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{cusines}</h3>
+      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{starrating}</h3>
       </div>
     </>
   )
@@ -90,23 +106,31 @@ const Body = function () {
           Search <input type="search" name="search" id="" />
         </div>
       <div className="Flex">
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
-       <RestroCard/>
+       <RestroCard  
+          restraunt = "Chaayos Chai+Snacks=Relax"
+          time = "30-35 mins"
+          cusines = "Bakery, Beverages"
+          starrating = "rating 4.3"/>
+       <RestroCard 
+        restraunt = "KFC Chicken"
+        time = "30-35 mins"
+        cusines = "Chicken Berger"
+        starrating = "rating 4.8"/>
+      
+       <RestroCardd 
+       restraunt = "DFC Chicken"
+       time = "30-35 mins"
+       cusines = "Chicken Berger"
+       starrating = "rating 4.8"/>
+       <RestroCardd restraunt = "KFC Chicken"
+        time = "30-35 mins"
+        cusines = "Chicken Berger"
+        starrating = "rating 4.8"/>
+       <RestroCardd restraunt = "PFC Chicken"
+        time = "30-35 mins"
+        cusines = "Chicken Berger"
+        starrating = "rating 4.8"/>
+      
       </div>
       </div>
     </>
