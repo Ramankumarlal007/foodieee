@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 const Image = () => {
   return (
     <svg
-      class="_8pSp-"
+      className="_8pSp-"
       viewBox="0 0 559 825"
       height="49"
       width="34"
@@ -70,529 +70,980 @@ const header = () => {
 let restaurants = [
   {
     "info": {
-    "id": "452627",
-    "name": "Chaayos Chai+Snacks=Relax",
-    "cloudinaryImageId": "cace805a6ba74137571d0f7ac92302b1",
-    "locality": "RMS Layout",
-    "areaName": "Sahakara Nagar",
-    "costForTwo": "₹250 for two",
-    "cuisines": [
-    "Bakery",
-    "Beverages",
-    "Chaat",
-    "Desserts",
-    "Home Food",
-    "Italian",
-    "Maharashtrian",
-    "Snacks",
-    "Street Food",
-    "Sweets"
-    ],
-    "avgRating": 4.4,
-    "parentId": "281782",
-    "avgRatingString": "4.4",
-    "totalRatingsString": "1K+",
-    "sla": {
-    "deliveryTime": 18,
-    "lastMileTravel": 1.9,
-    "serviceability": "SERVICEABLE",
-    "slaString": "15-20 mins",
-    "lastMileTravelString": "1.9 km",
-    "iconType": "ICON_TYPE_EMPTY"
+      "id": "609594",
+      "name": "CakeZone",
+      "cloudinaryImageId": "06d30dd1c567076774f1a3f661ff80d7",
+      "locality": "KODIGEHALLI",
+      "areaName": "Maruthi Layout",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Bakery",
+        "Desserts",
+        "Sweets",
+        "Ice Cream"
+      ],
+      "avgRating": 4.1,
+      "parentId": "7003",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 30,
+        "lastMileTravel": 1.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "1.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-29 02:00:00",
+        "opened": true
+      },
+      "badges": {
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
     },
-    "availability": {
-    "nextCloseTime": "2024-01-29 02:00:00",
-    "opened": true
+    "analytics": {
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
     },
-    "badges": {
-    "textExtendedBadges": [
-    {
-    "iconId": "guiltfree/GF_Logo_android_3x",
-    "shortDescription": "options available",
-    "fontColor": "#7E808C"
-    }
-    ]
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/cakezone-kodigehalli-maruthi-layout-bangalore-609594",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
     },
-    "isOpen": true,
-    "type": "F",
-    "badgesV2": {
-    "entityBadges": {
-    "imageBased": {},
-    "textBased": {},
-    "textExtendedBadges": {
-    "badgeObject": [
-    {
-    "attributes": {
-    "description": "",
-    "fontColor": "#7E808C",
-    "iconId": "guiltfree/GF_Logo_android_3x",
-    "shortDescription": "options available"
-    }
-    }
-    ]
-    }
-    }
-    },
-    "aggregatedDiscountInfoV3": {
-    "header": "60% OFF",
-    "subHeader": "UPTO ₹120"
-    },
-    "orderabilityCommunication": {
-    "title": {},
-    "subTitle": {},
-    "message": {},
-    "customIcon": {}
-    },
-    "differentiatedUi": {
-    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    "differentiatedUiMediaDetails": {
-    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    "lottie": {},
-    "video": {}
-    }
-    },
-    "reviewsSummary": {},
-    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    "restaurantOfferPresentationInfo": {}
-    },
-    "analytics": {},
-    "cta": {},
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
+  },
+  {
     "info": {
-    "id": "64754",
-    "name": "A2B - Adyar Ananda Bhavan",
-    "cloudinaryImageId": "pjg4r1tolb7hqi5eecgs",
-    "locality": "Bhadrappa Layout",
-    "areaName": "Hebbal",
-    "costForTwo": "₹300 for two",
-    "cuisines": [
-    "South Indian",
-    "North Indian",
-    "Sweets",
-    "Chinese"
-    ],
-    "avgRating": 4.5,
-    "veg": true,
-    "parentId": "22",
-    "avgRatingString": "4.5",
-    "totalRatingsString": "10K+",
-    "sla": {
-    "deliveryTime": 26,
-    "lastMileTravel": 3.9,
-    "serviceability": "SERVICEABLE",
-    "slaString": "25-30 mins",
-    "lastMileTravelString": "3.9 km",
-    "iconType": "ICON_TYPE_EMPTY"
-    },
-    "availability": {
-    "nextCloseTime": "2024-01-28 22:30:00",
-    "opened": true
-    },
-    "badges": {
-    "imageBadges": [
-    {
-    "imageId": "v1695133679/badges/Pure_Veg111.png",
-    "description": "pureveg"
-    }
-    ]
-    },
-    "isOpen": true,
-    "type": "F",
-    "badgesV2": {
-    "entityBadges": {
-    "imageBased": {
-    "badgeObject": [
-    {
-    "attributes": {
-    "description": "pureveg",
-    "imageId": "v1695133679/badges/Pure_Veg111.png"
-    }
-    }
-    ]
-    },
-    "textBased": {},
-    "textExtendedBadges": {}
-    }
-    },
-    "aggregatedDiscountInfoV3": {
-    "header": "₹125 OFF",
-    "subHeader": "ABOVE ₹199",
-    "discountTag": "FLAT DEAL"
-    },
-    "orderabilityCommunication": {
-    "title": {},
-    "subTitle": {},
-    "message": {},
-    "customIcon": {}
-    },
-    "differentiatedUi": {
-    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    "differentiatedUiMediaDetails": {
-    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    "lottie": {},
-    "video": {}
-    }
-    },
-    "reviewsSummary": {},
-    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    "restaurantOfferPresentationInfo": {}
+      "id": "15508",
+      "name": "Pizza Hut",
+      "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+      "locality": "Sahakara Nagar Main Road",
+      "areaName": "Sahakara Nagar",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Pizzas"
+      ],
+      "avgRating": 4,
+      "parentId": "721",
+      "avgRatingString": "4.0",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 2.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-35 mins",
+        "lastMileTravelString": "2.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-29 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹179"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
     },
     "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
     },
     "cta": {
-    "link": "https://www.swiggy.com/restaurants/a2b-adyar-ananda-bhavan-bhadrappa-layout-hebbal-bangalore-64754",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
+      "link": "https://www.swiggy.com/restaurants/pizza-hut-main-road-sahakara-nagar-bangalore-15508",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
     },
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
+  },
+  {
     "info": {
-    "id": "757051",
-    "name": "Theobroma",
-    "cloudinaryImageId": "b033728dcb0101ceb19bff0e1e1f6474",
-    "locality": "Hebbala",
-    "areaName": "Sahakar Nagar",
-    "costForTwo": "₹400 for two",
-    "cuisines": [
-    "Bakery",
-    "Desserts"
-    ],
-    "avgRating": 4.5,
-    "parentId": "1040",
-    "avgRatingString": "4.5",
-    "totalRatingsString": "100+",
-    "sla": {
-    "deliveryTime": 18,
-    "lastMileTravel": 1.9,
-    "serviceability": "SERVICEABLE",
-    "slaString": "15-20 mins",
-    "lastMileTravelString": "1.9 km",
-    "iconType": "ICON_TYPE_EMPTY"
-    },
-    "availability": {
-    "nextCloseTime": "2024-01-28 23:00:00",
-    "opened": true
-    },
-    "badges": {
-    "textExtendedBadges": [
-    {
-    "iconId": "v1705582451/Ratnesh_Badges/Listing_HR.png",
-    "shortDescription": "Perfect Cake Delivery",
-    "fontColor": "#7E808C"
-    }
-    ]
-    },
-    "isOpen": true,
-    "type": "F",
-    "badgesV2": {
-    "entityBadges": {
-    "imageBased": {},
-    "textBased": {},
-    "textExtendedBadges": {
-    "badgeObject": [
-    {
-    "attributes": {
-    "description": "",
-    "fontColor": "#7E808C",
-    "iconId": "v1705582451/Ratnesh_Badges/Listing_HR.png",
-    "shortDescription": "Perfect Cake Delivery"
-    }
-    }
-    ]
-    }
-    }
-    },
-    "aggregatedDiscountInfoV3": {
-    "header": "40% OFF",
-    "discountTag": "FLAT DEAL"
-    },
-    "orderabilityCommunication": {
-    "title": {},
-    "subTitle": {},
-    "message": {},
-    "customIcon": {}
-    },
-    "differentiatedUi": {
-    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    "differentiatedUiMediaDetails": {
-    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    "lottie": {},
-    "video": {}
-    }
-    },
-    "reviewsSummary": {},
-    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    "isNewlyOnboarded": true,
-    "restaurantOfferPresentationInfo": {}
+      "id": "45762",
+      "name": "Baskin Robbins - Ice Cream Desserts",
+      "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+      "locality": "A Block",
+      "areaName": "Sahakar Nagar",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Burgers",
+        "Pizzas",
+        "Fast Food"
+      ],
+      "avgRating": 4.6,
+      "veg": true,
+      "parentId": "5588",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 22,
+        "lastMileTravel": 2.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "2.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-29 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "30% OFF",
+        "subHeader": "UPTO ₹75"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
     },
     "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
     },
     "cta": {
-    "link": "https://www.swiggy.com/restaurants/theobroma-hebbala-sahakar-nagar-bangalore-757051",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
+      "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-a-block-sahakar-nagar-bangalore-45762",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
     },
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-    "info": {},
-    "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
-    },
-    "cta": {
-    "link": "https://www.swiggy.com/restaurants/puliyogare-point-kalpana-chawla-road-hebbal-bangalore-369809",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
-    },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-    "info": {},
-    "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
-    },
-    "cta": {
-    "link": "https://www.swiggy.com/restaurants/chai-point-brigade-magnum-hebbal-bangalore-200802",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
-    },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-    "info": {},
-    "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
-    },
-    "cta": {
-    "link": "https://www.swiggy.com/restaurants/freshmenu-kodigehalli-main-road-sahakar-nagar-bangalore-589597",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
-    },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-    "info": {},
-    "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
-    },
-    "cta": {
-    "link": "https://www.swiggy.com/restaurants/burger-king-rmv-2nd-stage-sanjaynagar-bangalore-8032",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
-    },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
+  },
+  {
     "info": {
-    "id": "15384",
-    "name": "Subway",
-    "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
-    "locality": "HEBBAL",
-    "areaName": "Esteem Mall",
-    "costForTwo": "₹350 for two",
-    "cuisines": [
-    "Salads",
-    "Snacks",
-    "Desserts",
-    "Beverages"
-    ],
-    "avgRating": 4.2,
-    "parentId": "2",
-    "avgRatingString": "4.2",
-    "totalRatingsString": "10K+",
-    "sla": {
-    "deliveryTime": 26,
-    "lastMileTravel": 3,
-    "serviceability": "SERVICEABLE",
-    "slaString": "25-30 mins",
-    "lastMileTravelString": "3.0 km",
-    "iconType": "ICON_TYPE_EMPTY"
-    },
-    "availability": {
-    "nextCloseTime": "2024-01-29 03:00:00",
-    "opened": true
-    },
-    "badges": {
-    "textExtendedBadges": [
-    {
-    "iconId": "guiltfree/GF_Logo_android_3x",
-    "shortDescription": "options available",
-    "fontColor": "#7E808C"
-    }
-    ]
-    },
-    "isOpen": true,
-    "type": "F",
-    "badgesV2": {
-    "entityBadges": {
-    "imageBased": {},
-    "textBased": {},
-    "textExtendedBadges": {
-    "badgeObject": [
-    {
-    "attributes": {
-    "description": "",
-    "fontColor": "#7E808C",
-    "iconId": "guiltfree/GF_Logo_android_3x",
-    "shortDescription": "options available"
-    }
-    }
-    ]
-    }
-    }
-    },
-    "aggregatedDiscountInfoV3": {
-    "header": "₹100 OFF",
-    "subHeader": "ABOVE ₹249",
-    "discountTag": "FLAT DEAL"
-    },
-    "orderabilityCommunication": {
-    "title": {},
-    "subTitle": {},
-    "message": {},
-    "customIcon": {}
-    },
-    "differentiatedUi": {
-    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    "differentiatedUiMediaDetails": {
-    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    "lottie": {},
-    "video": {}
-    }
-    },
-    "reviewsSummary": {},
-    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    "restaurantOfferPresentationInfo": {}
+      "id": "503953",
+      "name": "Istah - The Mediterranean Way",
+      "cloudinaryImageId": "9a01f2935fcb5ae05426db8264062102",
+      "locality": "Bhoopsandra",
+      "areaName": "Kalpana Chawala Road",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Mediterranean",
+        "Snacks",
+        "Biryani",
+        "Grill",
+        "Kebabs",
+        "Arabian",
+        "Lebanese",
+        "Beverages",
+        "Desserts",
+        "Italian",
+        "Turkish"
+      ],
+      "avgRating": 4.5,
+      "parentId": "3518",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "500+",
+      "sla": {
+        "deliveryTime": 40,
+        "lastMileTravel": 1.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "40-45 mins",
+        "lastMileTravelString": "1.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-28 22:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+            "description": "OnlyOnSwiggy"
+          }
+        ],
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "OnlyOnSwiggy",
+                  "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "EVERY ITEM",
+        "subHeader": "@ ₹149"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
     },
     "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
     },
     "cta": {
-    "link": "https://www.swiggy.com/restaurants/subway-hebbal-esteem-mall-bangalore-15384",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
+      "link": "https://www.swiggy.com/restaurants/istah-the-mediterranean-way-bhoopsandra-kalpana-chawala-road-bangalore-503953",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
     },
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
+  },
+  {
     "info": {
-    "id": "584668",
-    "name": "Starbucks Coffee",
-    "cloudinaryImageId": "182191ab163770437b62861a6f987709",
-    "locality": "Rajendra Infotech Road",
-    "areaName": "Sahakar Nagar",
-    "costForTwo": "₹400 for two",
-    "cuisines": [
-    "Beverages",
-    "Cafe",
-    "Snacks",
-    "Desserts",
-    "Bakery",
-    "Ice Cream"
-    ],
-    "avgRating": 4.3,
-    "parentId": "195515",
-    "avgRatingString": "4.3",
-    "totalRatingsString": "500+",
-    "sla": {
-    "deliveryTime": 25,
-    "lastMileTravel": 2.2,
-    "serviceability": "SERVICEABLE",
-    "slaString": "20-25 mins",
-    "lastMileTravelString": "2.2 km",
-    "iconType": "ICON_TYPE_EMPTY"
-    },
-    "availability": {
-    "nextCloseTime": "2024-01-28 23:59:00",
-    "opened": true
-    },
-    "badges": {
-    "textExtendedBadges": [
-    {
-    "iconId": "guiltfree/GF_Logo_android_3x",
-    "shortDescription": "options available",
-    "fontColor": "#7E808C"
-    }
-    ]
-    },
-    "isOpen": true,
-    "type": "F",
-    "badgesV2": {
-    "entityBadges": {
-    "imageBased": {},
-    "textBased": {},
-    "textExtendedBadges": {
-    "badgeObject": [
-    {
-    "attributes": {
-    "description": "",
-    "fontColor": "#7E808C",
-    "iconId": "guiltfree/GF_Logo_android_3x",
-    "shortDescription": "options available"
-    }
-    }
-    ]
-    }
-    }
-    },
-    "aggregatedDiscountInfoV3": {
-    "header": "60% OFF",
-    "subHeader": "UPTO ₹100"
-    },
-    "orderabilityCommunication": {
-    "title": {},
-    "subTitle": {},
-    "message": {},
-    "customIcon": {}
-    },
-    "differentiatedUi": {
-    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    "differentiatedUiMediaDetails": {
-    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    "lottie": {},
-    "video": {}
-    }
-    },
-    "reviewsSummary": {},
-    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    "restaurantOfferPresentationInfo": {}
+      "id": "496614",
+      "name": "Domino's Pizza",
+      "cloudinaryImageId": "vurf4dll4eunzjm4zzdg",
+      "locality": "Tata Nagar",
+      "areaName": "Sahakar Nagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Pastas",
+        "Desserts"
+      ],
+      "avgRating": 4.3,
+      "parentId": "2456",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 25,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25 mins",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-28 22:59:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹80"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
     },
     "analytics": {
-    "context": "seo-data-1e5ef0fe-786e-49e7-9e38-02c03b4680a0"
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
     },
     "cta": {
-    "link": "https://www.swiggy.com/restaurants/starbucks-coffee-rajendra-infotech-road-sahakar-nagar-bangalore-584668",
-    "text": "RESTAURANT_MENU",
-    "type": "WEBLINK"
+      "link": "https://www.swiggy.com/restaurants/dominos-pizza-tata-nagar-sahakar-nagar-bangalore-496614",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
     },
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    }
+  },
+  {
+    "info": {
+      "id": "120178",
+      "name": "Meghana Foods",
+      "cloudinaryImageId": "oycavthjdkphqevhzk7t",
+      "locality": "Park View Layout",
+      "areaName": "Sahakar Nagar",
+      "costForTwo": "₹500 for two",
+      "cuisines": [
+        "Biryani",
+        "Andhra",
+        "South Indian",
+        "Chinese",
+        "Seafood"
+      ],
+      "avgRating": 4.4,
+      "parentId": "635",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 23,
+        "lastMileTravel": 2.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "2.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-28 23:59:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/meghana-foods-park-view-layout-sahakar-nagar-bangalore-120178",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "15384",
+      "name": "Subway",
+      "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
+      "locality": "HEBBAL",
+      "areaName": "Esteem Mall",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Salads",
+        "Snacks",
+        "Desserts",
+        "Beverages"
+      ],
+      "avgRating": 4.2,
+      "parentId": "2",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-29 03:00:00",
+        "opened": true
+      },
+      "badges": {
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹100 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/subway-hebbal-esteem-mall-bangalore-15384",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "600206",
+      "name": "KFC",
+      "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+      "locality": "60 Feet Road",
+      "areaName": "Sahakar Nagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Burgers",
+        "Biryani",
+        "American",
+        "Snacks",
+        "Fast Food"
+      ],
+      "avgRating": 4.2,
+      "parentId": "547",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 2.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "2.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-28 23:59:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/kfc-60-feet-road-sahakar-nagar-bangalore-600206",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "11503",
+      "name": "Corner House Ice Cream",
+      "cloudinaryImageId": "mtlwxk3sbjlc8ged0uaj",
+      "locality": "Devasandra",
+      "areaName": "New Bel Road",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Ice Cream",
+        "Desserts"
+      ],
+      "avgRating": 4.7,
+      "parentId": "65254",
+      "avgRatingString": "4.7",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 26,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-01-29 00:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "D",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-16228407-3a4a-4164-98ab-dba33e4ccbab"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/corner-house-ice-cream-devasandra-new-bel-road-bangalore-11503",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  }
+];
 
-]
-
-
-const RestroCard = (props)  => {
+const RestroCard = (props) => {
   // console.log(props); previous example
-  const {restroData} = props;
+  const { restroData } = props;
+
+const {cloudinaryImageId, name, areaName, costForTwo, locality, cuisines} = restroData?.info;
+
   return (
     <>
-      <div className="Card" style={{backgroundColor: "#414141"}}>
-      <img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cace805a6ba74137571d0f7ac92302b1" alt="Chaayos Chai+Snacks=Relax" height= "90px"  style={{borderRadius: "10px"}} />
-      <h3 style={{backgroundColor: "#414141", color: "white" }}>{restroData[0].info.name}</h3>
-      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{restroData[0].info.areaName}</h3>
-      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{restroData[0].info.costForTwo}</h3>
-      <h3 style={{backgroundColor: "#414141" , color: "white"}}>{restroData[0].info.locality}</h3>
-      
+      <div className="Card" style={{ backgroundColor: "#414141" }}>
+        <img
+          className="res-logo"
+          src={
+            "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+            cloudinaryImageId
+          }
+          style={{ borderRadius: "10px" }}
+        />
+        <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+          {name}
+        </h3>
+        <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+          {areaName}
+        </h3>
+        <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+          {costForTwo}
+        </h3>
+        <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+          {locality}
+        </h3>
+        <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+          {cuisines.join(" , ")}
+        </h3>
+        <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+          {restroData.info.sla.slaString}
+        </h3>
       </div>
     </>
-  )
-}
-
+  );
+};
 
 // const RestroCardd = (props)  => {
 //   const {restraunt, time, cusines, starrating} = props
@@ -609,7 +1060,6 @@ const RestroCard = (props)  => {
 //   )
 // }
 
-
 const Body = function () {
   return (
     <>
@@ -617,18 +1067,24 @@ const Body = function () {
         <div>
           Search <input type="search" name="search" id="" />
         </div>
-      <div className="Flex">
-       <RestroCard  restroData = {restaurants}
-       />
-      
-      
-    
-       {/* <RestroCardd restraunt = "PFC Chicken"
+        <div className="Flex">
+          <RestroCard restroData={restaurants[0]} />
+          <RestroCard restroData={restaurants[1]} />
+          <RestroCard restroData={restaurants[2]} />
+          <RestroCard restroData={restaurants[3]} />
+          <RestroCard restroData={restaurants[4]} />
+          <RestroCard restroData={restaurants[5]} />
+          <RestroCard restroData={restaurants[6]} />
+          <RestroCard restroData={restaurants[7]} />
+          <RestroCard restroData={restaurants[8]} />
+          
+          
+
+          {/* <RestroCardd restraunt = "PFC Chicken"
         time = "30-35 mins"
         cusines = "Chicken Berger"
         starrating = "rating 4.8"/> */}
-      
-      </div>
+        </div>
       </div>
     </>
   );

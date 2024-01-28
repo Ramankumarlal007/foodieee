@@ -18,15 +18,17 @@ margin: 10px ;
 .Image {
     display:flex;
 }
-
+.res-logo{
+    width: 150px;
+}
 .Center {
     margin-top: 5%;
 }
 
 .Card {
     
-    height: 300px;
-    
+    /* height: 150px; */
+    width: 200px;
     border-radius: 12px ;
     border: 1px solid rgb(46, 187, 212);
 }
@@ -34,6 +36,7 @@ margin: 10px ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .Card:hover {
