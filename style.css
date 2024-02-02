@@ -22,7 +22,7 @@ margin: 10px ;
     width: 150px;
 }
 .Center {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .Card {
@@ -45,4 +45,7 @@ margin: 10px ;
     border: 2px solid rgb(212, 46, 198);
 }
 
-   
+.btn {
+    display: flex;
+    
+}
