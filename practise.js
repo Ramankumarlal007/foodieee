@@ -1,61 +1,8 @@
+const fetchdata = async function () {
+  const data = await fetch ("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+
+  const json = await data.json();
+  console.log(json);
 
 
-let practise = [ 
-    { 
-        "info": {
-          "id": "609594",
-          "name": "CakeZone",
-          "cloudinaryImageId": "06d30dd1c567076774f1a3f661ff80d7",
-          "locality": "KODIGEHALLI",
-          "areaName": "Maruthi Layout",
-          "costForTwo": "₹200 for two",
-          "cuisines": [
-            "Bakery",
-            "Desserts",
-            "Sweets",
-            "Ice Cream"
-          ],
-          "avgRating": 4.1,}
-      },
-
-      { 
-        "info": {
-          "id": "609594",
-          "name": "CakeZone",
-          "cloudinaryImageId": "06d30dd1c567076774f1a3f661ff80d7",
-          "locality": "KODIGEHALLI",
-          "areaName": "Maruthi Layout",
-          "costForTwo": "₹200 for two",
-          "cuisines": [
-            "Bakery",
-            "Desserts",
-            "Sweets",
-            "Ice Cream"
-          ],
-          "avgRating": 4.5,}
-      }, 
-      
-      { 
-        "info": {
-          "id": "609594",
-          "name": "CakeZone",
-          "cloudinaryImageId": "06d30dd1c567076774f1a3f661ff80d7",
-          "locality": "KODIGEHALLI",
-          "areaName": "Maruthi Layout",
-          "costForTwo": "₹200 for two",
-          "cuisines": [
-            "Bakery",
-            "Desserts",
-            "Sweets",
-            "Ice Cream"
-          ],
-          "avgRating": 4.8,}
-      },
-]
-
-
-// console.log(practise[1].info.avgRating);
-
-let restaurantsList = practise.filter( (restaurant) => restaurant.info.avgRating > 4) 
-
-console.log(restaurantsList);
+}

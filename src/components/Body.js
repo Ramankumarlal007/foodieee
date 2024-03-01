@@ -1,6 +1,7 @@
 import RestroCard from "./RestaurantCard";
 import restaurantsList from "../utilis/mockData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 let practise = [ 
   { 
@@ -62,9 +63,25 @@ let practise = [
 
 
 const Body = function () {
-const [Restrolist,  setRestrolist] = useState(restaurantsList)
-  
+const [Restrolist,  setRestrolist] = useState([])
+  useEffect( () => {
+    fetchdata();
+  }, [])
+ 
+  const fetchdata = async () => {
+    const data = await fetch ("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6633025&lng=77.1860118&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
+    const json = await data.json();
+    // console.log(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+    setRestrolist(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+
+  }
+
+  //conditional renderings  (rendering on the basis of condition is known as condition rendering.)
+if (Restrolist.length === 0) {
+  return <Shimmer />;
+}
+   
     return (
       <>
         <div className="Center">

@@ -5,6 +5,8 @@ import Body from "./src/components/Body";
 
 
 const App = () => {
+console.log(<Body/>);
+
   return (
     <>
       {header()}
@@ -15,3 +17,13 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(App());
+
+
+// const Body = () = {
+// Local State Variable - Super powerful variable
+// const arr = useState(resList);
+
+// const [listOfRestaurants, setListOfRestraunt] = arr;
+
+// const ListOfRestaurants = arr[0];
+// const setListOfRestraunt = ørr[1];

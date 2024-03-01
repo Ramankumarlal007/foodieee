@@ -49,3 +49,21 @@ margin: 10px ;
     display: flex;
     
 }
+
+.shimmer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 250px;
+    border-radius: 12px ;
+    border: 1px solid rgb(46, 187, 212);
+    background-color:  #d1c4c4;
+    text-align: center;
+}
