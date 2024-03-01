@@ -58,11 +58,14 @@ let practise = [
     },
 ]
 
-
+let btn = "LOGIN"
 
 
 
 const Body = function () {
+
+  const [btn2, setbtn] = useState("ZEBRAfdf")
+
 const [Restrolist,  setRestrolist] = useState([])
   useEffect( () => {
     fetchdata();
@@ -78,16 +81,28 @@ const [Restrolist,  setRestrolist] = useState([])
   }
 
   //conditional renderings  (rendering on the basis of condition is known as condition rendering.)
-if (Restrolist.length === 0) {
-  return <Shimmer />;
-}
-   
-    return (
+// if (Restrolist.length === 0) {
+//   return <Shimmer />;
+// }
+  //terniary operator
+    return Restrolist.length === 0 ? <Shimmer /> :  (
       <>
+      
         <div className="Center">
         <div className="btn">
         <button  onMouseOver = { () => console.log("btn clicked")}
-         >Top rated Restaurant</button>         
+         >Top rated Restaurant</button>  
+
+
+         <button onClick={() => {
+          btn2 === "lion" ? 
+          setbtn("elephant") : setbtn("lion")}}>
+            {btn2}
+            </button>  
+
+
+
+
          {/* <button  onClick = { () => {restaurantsList = restaurantsList.filter( res => res.info.avgRating > 4.1);
         console.log(restaurantsList); 
         }}
