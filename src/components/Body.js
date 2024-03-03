@@ -64,19 +64,27 @@ let btn = "LOGIN"
 
 const Body = function () {
 
-  const [btn2, setbtn] = useState("ZEBRAfdf")
+const [btn2, setbtn] = useState("ZEBRAfdf")
+
+const [searchText, setsearchText] = useState("dfghdfh")
 
 const [Restrolist,  setRestrolist] = useState([])
+const [filteredRestro, setfilteredRestro] = useState([])
   useEffect( () => {
     fetchdata();
   }, [])
+
+  
  
+console.log("Body  rendered ");
+
   const fetchdata = async () => {
-    const data = await fetch ("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6633025&lng=77.1860118&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+    const data = await fetch ("https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.5647103&lng=83.9777482&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
     const json = await data.json();
     // console.log(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
-    setRestrolist(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+    setRestrolist(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setfilteredRestro(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
   }
 
@@ -93,6 +101,19 @@ const [Restrolist,  setRestrolist] = useState([])
         <button  onMouseOver = { () => console.log("btn clicked")}
          >Top rated Restaurant</button>  
 
+<div>
+            <input type="text" id="search-box" value={searchText} onChange={(e) => {setsearchText(e.target.value)} } /> 
+            <button type="submit" onClick={() => {
+              console.log({searchText});
+              Restrolist.forEach( (r) => console.log(r.info.name));
+              
+              const filteredRestro = Restrolist.filter((r) => r.info.name.toLowerCase().includes(searchText.toLowerCase()));
+              setfilteredRestro(filteredRestro);
+              
+
+            } } >Search</button>
+            </div>
+            
 
          <button onClick={() => {
           btn2 === "lion" ? 
@@ -101,6 +122,7 @@ const [Restrolist,  setRestrolist] = useState([])
             </button>  
 
 
+           
 
 
          {/* <button  onClick = { () => {restaurantsList = restaurantsList.filter( res => res.info.avgRating > 4.1);
@@ -128,7 +150,7 @@ const [Restrolist,  setRestrolist] = useState([])
             <RestroCard restroData={restaurantsList[8]} /> */}
   
   
-              {Restrolist.map( (restaurant, index) => {
+              {filteredRestro.map( (restaurant, index) => {
        return <RestroCard key = {restaurant.info.cloudinaryImageId} restroData = {restaurant} /> }
    )}
   

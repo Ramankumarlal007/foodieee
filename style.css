@@ -67,3 +67,9 @@ margin: 10px ;
     background-color:  #d1c4c4;
     text-align: center;
 }
+
+.login {
+    background-color: #d1c4c4;
+    padding: 12px 10px;
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ const RestroCard = (props) => {
     // console.log(props); previous example
     const { restroData } = props;
   
-  const {cloudinaryImageId, name, areaName, costForTwo, locality, cuisines, avgRating} = restroData?.info;
+  const {cloudinaryImageId, name, areaName, costForTwo, locality, cuisines, avgRating, sla} = restroData?.info;
   
     return (
       <>
@@ -35,6 +35,9 @@ const RestroCard = (props) => {
           </h3>
           <h3 style={{ backgroundColor: "#414141", color: "white" }}>
             {cuisines.join(" , ")}
+          </h3>
+          <h3 style={{ backgroundColor: "#414141", color: "white" }}>
+            {sla.slaString}
           </h3>
           {/* <h3 style={{ backgroundColor: "#414141", color: "white" }}>
             {restroData.info.sla.slaString}
