@@ -79,7 +79,7 @@ const [filteredRestro, setfilteredRestro] = useState([])
 console.log("Body  rendered ");
 
   const fetchdata = async () => {
-    const data = await fetch ("https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.5647103&lng=83.9777482&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+    const data = await fetch ("https://www.swiggy.com/dapi/restaurants/list/v5?lat=13.051602&lng=77.57852&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
     const json = await data.json();
     // console.log(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
@@ -87,12 +87,12 @@ console.log("Body  rendered ");
     setfilteredRestro(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
   }
-
   //conditional renderings  (rendering on the basis of condition is known as condition rendering.)
 // if (Restrolist.length === 0) {
 //   return <Shimmer />;
 // }
   //terniary operator
+
     return Restrolist.length === 0 ? <Shimmer /> :  (
       <>
       

@@ -2,26 +2,58 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import header from "./src/components/Header";
 import Body from "./src/components/Body";
-// import Button from "./src/components/Button";
+import Contact from "./src/components/ContactUs";
+import { Error } from "./src/components/Error";
+import Notion from "./src/components/Notion";
+import { About } from "./src/components/About";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
 
 
 const App = () => {
 console.log(<Body/>);
-
-
- 
   return (
     <>
-
-    
       {header()}
       <Body />
     </>
   );
 };
 
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    errorElement: <Error/>,
+
+  },
+
+  {
+    path: "/Notion",
+    element: <Notion/>,
+  },
+
+
+  {
+    path: "/Contact",
+    element: Contact()
+  },
+ 
+  { path: "/About", 
+    element: <About/>,},
+
+  // {
+  //   path: "*",
+  //   element: <Error />
+  // }
+
+
+]);
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(App());
+root.render(<RouterProvider router={appRouter} />);
 
 
 // const Body = () = {
