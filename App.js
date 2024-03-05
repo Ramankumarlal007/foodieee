@@ -6,7 +6,7 @@ import Contact from "./src/components/ContactUs";
 import { Error } from "./src/components/Error";
 import Notion from "./src/components/Notion";
 import { About } from "./src/components/About";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 
 
 
@@ -15,7 +15,7 @@ console.log(<Body/>);
   return (
     <>
       {header()}
-      <Body />
+      <Outlet />
     </>
   );
 };
@@ -24,23 +24,31 @@ const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+    children:  [
+      {
+        path: "/",
+        element: <Body/>,
+      },
+      {
+        path: "/Notion",
+        element: <Notion/>,
+      },
+    
+    
+      {
+        path: "/Contact",
+        element: Contact()
+      },
+     
+      { path: "/About", 
+        element: <About/>,},
+    ],
+
     errorElement: <Error/>,
 
   },
 
-  {
-    path: "/Notion",
-    element: <Notion/>,
-  },
-
-
-  {
-    path: "/Contact",
-    element: Contact()
-  },
- 
-  { path: "/About", 
-    element: <About/>,},
+  
 
   // {
   //   path: "*",

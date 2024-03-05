@@ -1,5 +1,5 @@
 // import React, { useState } from "react";
-import { useState } from "react";
+import { Link } from "react-router-dom";
 import { CARTT } from "../utilis/constant";
 
 // const CART = "https://media.istockphoto.com/id/91830449/photo/shopping-cart-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=TdSjmadIv-i26fwhl9FcLoe4CUk2cdYwkK2Bof0NNM8=";
@@ -36,9 +36,6 @@ const Image = () => {
   );
 };
 
-
-
-
 const header = () => {
   let btnName = "LOGIN";
   // const [btn, setbtn] = useState("logout");
@@ -48,19 +45,25 @@ const header = () => {
       <div className="header">
         <Image />
         <ul className="unlist">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact</li>
+          <li>
+            <a href="/">Home</a>
+            <Link to= "/"> Home</Link>
+          </li>
+          <li>
+           <Link to = "/About">About Us</Link>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+            <Link to = "/contact">Contact</Link>
+          </li>
         </ul>
-    
-    <div> 
-      <button>
-        {btnName}
-      </button>
-      {/* <button>
+
+        <div>
+          <button>{btnName}</button>
+          {/* <button>
         {btn}
       </button> */}
-    </div>
+        </div>
 
         <div className="Image">
           <img src={CARTT} height="25px" alt="Cart" />
