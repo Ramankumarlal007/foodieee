@@ -6,63 +6,58 @@ import Contact from "./src/components/ContactUs";
 import { Error } from "./src/components/Error";
 import Notion from "./src/components/Notion";
 import { About } from "./src/components/About";
-import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
-
-
+import { RouterProvider, createBrowserRouter, Outlet, useParams } from "react-router-dom";
+import { RestaurantMenu } from "./src/components/RestaurntMenu";
 
 const App = () => {
-console.log(<Body/>);
+  console.log(<Body />);
   return (
     <>
       {header()}
       <Outlet />
+      
     </>
   );
 };
 
+
+
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
-    children:  [
+    element: <App />,
+    children: [
       {
         path: "/",
-        element: <Body/>,
+        element: <Body />,
       },
       {
         path: "/Notion",
-        element: <Notion/>,
+        element: <Notion />,
       },
-    
-    
+
       {
         path: "/Contact",
-        element: Contact()
+        element: Contact(),
       },
-     
+
       { path: "/About", 
-        element: <About/>,},
+      element: <About /> },
+
+      { path: "/restaurants/:resId", element: <RestaurantMenu /> },
     ],
 
-    errorElement: <Error/>,
-
+    errorElement: <Error />,
   },
-
-  
 
   // {
   //   path: "*",
   //   element: <Error />
   // }
-
-
 ]);
-
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter} />);
-
 
 // const Body = () = {
 // Local State Variable - Super powerful variable
